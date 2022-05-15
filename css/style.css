@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 350;
+    color: rgb(250, 199, 15);
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  #about {
+    height: 100vh;
+    background-color: rgb(9, 202, 193);
+  }
+  
+  #navbar {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar ul a {
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  
+
+  #about .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  #caption {
+    color: rgb(250, 199, 15);
+  }
+  
+  #projects {
+    text-align: center;
+    width: 100%;
+    padding: 15px 15px;
+  }
+  
+  #projects .projects {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  #projects .projects .box {
+    background-color: rgb(9, 202, 193);
+    border: 2px solid rgb(9, 202, 193);
+    border-radius: 3px;
+  }
+  
+  #projects .projects .box a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  #projects .projects .box a p {
+   font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    color: white;
+  }
+  
+  #contact {
+    height: 80vh;
+    background-color:rgb(9, 202, 193);
+    color: white;
+  }
+  
+  #contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #contact .container h1 {
+    font-size: 3.4rem;
+    font-weight: bolder;
+    padding-bottom: .1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #contact .container p {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    color: yellow;
+  }
+  
+  #contact .container .social>div a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin: 15px 20px;
+    font-weight: bolder;
+  }
+  
+  #contact {
+      background-image: url("https://www.thoughtco.com/thmb/NRuMaaVBhsrz3AyDBweiPAZpYfw=/1500x844/smart/filters:no_upscale()/GettyImages-909076272-5c48c8c146e0fb0001891c02.jpg");
+  }
+
+  
+  
+  
